@@ -1,0 +1,47 @@
+.card-section {
+    padding: 80px 0; 
+}
+.card {
+    width: 350px;  
+    margin: 0 15px;
+}
+.card-img {   
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E72424;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 30px
+}
+.card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #333333;
+    text-align: center;
+    margin: 0px auto 16px;
+}
+.card-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+@media (max-width: 800px) {
+    .wrap {
+        flex-direction: column;
+    }
+    .card {
+        margin-bottom: 40px;
+        width: 80%;
+    }
+    .card:last-child {
+        margin-bottom: 0;
+    }
+}

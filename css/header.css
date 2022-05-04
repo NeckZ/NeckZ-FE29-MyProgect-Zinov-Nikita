@@ -1,0 +1,59 @@
+.header {
+    background-color: rgb(0, 0, 0);
+    padding: 20px 0;
+    /* position: fixed; */
+}
+.logo a {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.logo a::after {
+    content: "it";
+    color: #EC7979;
+}
+
+.header-wpap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav {
+}
+.nav-list {
+    display: flex;
+    
+}
+.nav-list-item a{
+    margin-left: 48px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.2s; 
+}
+.nav-list-item a:hover{
+    content: "";
+    border-bottom: 3px solid  #EC7979 ;
+    cursor: pointer;
+}
+.burger{
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer ;
+    font-size: 1.87rem;
+    display: none;
+}
+@media (max-width: 800px) {
+    .nav {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}

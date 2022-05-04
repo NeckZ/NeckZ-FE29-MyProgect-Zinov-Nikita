@@ -1,0 +1,58 @@
+.footer {
+    padding: 30px 0 15px;
+    background-color: black;
+}
+.footer-social {
+    width: 317px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 18px;
+
+
+}
+.footer-text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    text-transform: capitalize;
+}
+.footer-social-item a {
+    color: rgb(122, 122, 122);
+    font-size: 18px;
+    transition: 0.2s;
+}
+.footer-social-item a:hover {
+    transform: scale(150%);
+}
+.fb a:hover {
+    color: #3b5998
+}
+.tw a:hover {
+color: rgb(0, 204, 255);
+}
+.google a:hover {
+    color: #3e91ff;
+}
+.pin a:hover {
+color: #c8232c;
+}
+.inst a:hover {
+    color: #DD2A7B;
+}
+.andr a:hover {
+    color: #37b946;
+}
+.bb a:hover {
+    color: #4d0135;
+}
+@media (max-width: 800px) {
+    .footer-social {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+}
+    
